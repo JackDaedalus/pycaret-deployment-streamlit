@@ -8,3 +8,65 @@
 2021-04-27 12:31:27,538:INFO:load_model(model_name=deployment_28042020, platform=None, authentication=None, verbose=True)
 2021-04-28 10:50:02,347:INFO:Initializing load_model()
 2021-04-28 10:50:02,348:INFO:load_model(model_name=deployment_28042020, platform=None, authentication=None, verbose=True)
+2021-04-28 11:23:00,268:INFO:Initializing load_model()
+2021-04-28 11:23:00,268:INFO:load_model(model_name=deployment_28042020, platform=None, authentication=None, verbose=True)
+2021-04-28 11:23:17,618:INFO:Initializing load_model()
+2021-04-28 11:23:17,618:INFO:load_model(model_name=deployment_28042020, platform=None, authentication=None, verbose=True)
+2021-04-28 11:23:18,874:INFO:Initializing load_model()
+2021-04-28 11:23:18,874:INFO:load_model(model_name=deployment_28042020, platform=None, authentication=None, verbose=True)
+2021-04-28 11:23:18,921:INFO:Initializing predict_model()
+2021-04-28 11:23:18,922:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='charges',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model', LinearRegression(n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-04-28 11:23:18,922:INFO:Checking exceptions
+2021-04-28 11:23:18,923:INFO:Preloading libraries
+2021-04-28 11:23:27,039:INFO:Initializing load_model()
+2021-04-28 11:23:27,040:INFO:load_model(model_name=deployment_28042020, platform=None, authentication=None, verbose=True)
+2021-04-28 11:23:28,184:INFO:Initializing load_model()
+2021-04-28 11:23:28,184:INFO:load_model(model_name=deployment_28042020, platform=None, authentication=None, verbose=True)
+2021-04-28 11:23:28,229:INFO:Initializing predict_model()
+2021-04-28 11:23:28,229:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='charges',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model', LinearRegression(n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-04-28 11:23:28,230:INFO:Checking exceptions
+2021-04-28 11:23:28,231:INFO:Preloading libraries
